@@ -33,7 +33,17 @@ public class DupliccateValue {
 	// using HashMap
 	
 	Map<String, Integer> map = new HashMap<String,Integer>();
-	
+	for (String B:a) {
+		Integer count = map.get(B);
+		if(count == null) {
+			map.put(B, 1);
+		}
+		else {
+			map.put(B, ++count);
+			
+			/// saiful mahmood
+		}
+	}
 	
 	}
 }
