@@ -3,7 +3,11 @@ package interviewPractice;
 public class StringReverse {
 	// as String is a Immutable class we cannt reverse string by .reverse(infact .reverse is not available in String class)
 	
+	//int
 	
+	//Integer
+	
+	int a = 80; 
 	
 	public static void main(String[] args) {
 	
